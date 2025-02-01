@@ -10,7 +10,7 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   return (
-    <nav className="absolute top-0 left-0 w-full bg-gradient-to-r from-blue-700 to-blue-500 p-4 shadow-md z-50">
+    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-blue-700 to-blue-500 p-4 shadow-md z-50">
       <div className="container mx-auto flex items-center justify-between">
         <div>
           <motion.div
