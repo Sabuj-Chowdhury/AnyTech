@@ -37,7 +37,7 @@ const PoweringFuture = () => {
           <p className="mt-6 text-lg text-gray-700">
             <span className="font-bold">
               AnyTech is revolutionizing financial technology
-            </span>
+            </span>{" "}
             by introducing innovative and real-time transaction account
             processing capabilities, specifically designed for retail financial
             services.
