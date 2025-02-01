@@ -61,10 +61,22 @@ const FinanceSlide = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto text-center py-12">
-      <h2 className="text-4xl font-bold text-gray-900 mb-6">
+    <div className="container mx-auto text-center py-12">
+      <motion.h4
+        className="text-blue-600 font-semibold uppercase"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0, transition: { duration: 1 } }}
+      >
+        technology built for you
+      </motion.h4>
+
+      <motion.h2
+        className="text-5xl font-extrabold text-gray-900 mt-2 mb-5 md:mb-10"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0, transition: { duration: 1, delay: 0.2 } }}
+      >
         The future of finance
-      </h2>
+      </motion.h2>
 
       {/* Tabs */}
       <div className="hidden md:flex justify-center space-x-4 mb-6">
